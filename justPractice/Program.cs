@@ -43,6 +43,8 @@ namespace AreaWithClasses
             Square sqr1 = new Square();
             sqr1.Side = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"The area of the Square is: {AreaCalculator.CalculateArea(sqr1)}");
+
+            Console.WriteLine("Testing Git");
         }
     }
     
